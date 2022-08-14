@@ -1,0 +1,141 @@
+.fondoPromo {
+    background-color:#C2E4EC ;
+    text-align: center;
+
+}
+
+.fondoHeader {
+    background-image: url(../img/fondo4.jpg);
+}
+
+.fondoWhite {
+    background-color: white;
+}
+.puroLogoPal{
+    display: none;
+}
+
+.colorRosa{
+    color:#F7C4D5;
+}
+
+.footerFondo {
+    background-color: #212529;
+}
+
+.footerHover a:hover{
+    color:#C2E4EC;
+     
+}
+
+.iconosHover:hover {
+    color:#C2E4EC;
+}
+
+.fondoCeles {
+    background-color: #C2E4EC;
+}
+
+.palitos {                                                                                  /* empieza decoracion de textos y titulos palitos*/
+    display: inline-block;
+   position: relative;    
+}
+                       
+.palitos::after,.palitos::before {
+   content: " ";
+   position: absolute;
+   width: 120px;
+   height: 5px;
+   background-color: black;
+   top: 0.7em;                            
+}
+                       
+.palitos::after{
+   left:-140px;       
+   background-image: url(../img/palitoleftpink.jpg);
+   background-size:120px 5px;
+                          
+}
+.palitos::before {
+    right:-140px;
+    background-image: url(../img/palitorightpink.jpg);
+    background-size:120px 5px;
+}                                                                                              /* termina decoracion de textos y titulos palitos*/
+
+.menuHover a:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,0.5);
+    transform: scale(1.1);
+    border-radius: 1px;
+    transition: all 0.3s;
+    background-color: #C2E4EC;  
+    padding-left: 10px;
+    font-weight: bolder;
+    
+            
+}
+
+
+
+.enLinea {
+    display: inline;
+}
+
+.formulario {
+    background-color:#C2E4EC;    
+       height: 550px;
+       padding-top: 15px;    
+       width: 500px; 
+       padding-left: 15px;   
+      
+}
+
+.form-control{
+    width: 450px;
+}
+
+.textArea {
+    width: 450px;
+    height: 270px;
+}
+
+.ifraCat{
+    width: 800px;
+    height: 570px;
+}
+
+.imgCat{
+    width: 800px;
+    height: 570px;   
+}
+
+@media (max-width: 991px) {
+
+     
+    .enviosD ,.medios ,.informacion{
+        display: none;
+    }
+    .logoDesk {
+        display: none;
+    }
+    .fondoWhite{
+        background-image: url(../img/fondo5.jpg);
+    }
+    .iconosDesk {
+        display: none;    
+    }
+    .puroLogoPal {
+        display:block;
+    }
+    .navFondo {
+        background-color:#C2E4EC ;
+    }
+    .nosotrosTitulo{
+        display: none !important;
+     }   
+
+     .imgCat{
+        width: 100%;
+        height: 400px;   
+    }
+    
+}
